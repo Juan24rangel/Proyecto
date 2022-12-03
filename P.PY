@@ -76,34 +76,33 @@ def alm4():
             tren.place(x=50,y=5, width=900, height=600)
 
 def cmd1():
-            ventana_almuerzo1=Tk()
-            ventana_almuerzo1.title("Comida.")
-            ventana_almuerzo1.geometry("1000x500")
-            ventana_almuerzo1.resizable(0,0)
-            ventana_almuerzo1.config(bg= "springgreen4")
-            tren = Label(ventana_almuerzo1, text= "")
-            tren.config(bg="springgreen4", fg="black", font=("Arial",19))
-            tren.place(x=50,y=5, width=900, height=400)
-            
+            ventana_comida1=Tk()
+            ventana_comida1.title("comida")
+            ventana_comida1.geometry("1000x650")
+            ventana_comida1.resizable(0,0)
+            ventana_comida1.config(bg= "springgreen4")
+            tren = Label(ventana_comida1, text= "---COMIDAS---\n\n-Las pizzas-\n\nIngredientes:\n 1,5 tazas de agua templada 1 cucharadita y media de \nlevadura de panadería Una pizca de sal 3 tazas de harina \nde trigo integral 1 cucharada de aceite de oliva.\n\nPreparación:\n1.Mezcla la harina con la sal y la levadura y añade el \nagua templada. Mézclalo bien, tápalo y déjalo reposar 10 minutos.\n2.Amasa la masa unos 10 minutos, \nhasta que tenga una superficie más bien suave aunque sea un \npoco pegajosa. Puedes añadir un poco más de \nharina para amasar.\n3.Haz una bola con la masa, cúbrela con el aceite (con la mano \ndistribúyelo por toda la superficie), tápalo y déjalo en un lugar cálido hasta \nque duplique su tamaño.\n4.Saca la masa, dale forma (salen 4 pizzas medianas o 2 grandes) \ny pon las pizzas en bandejas para horno con papel para hornear.\n5.Precalienta el horno a 210ºC con calor arriba y abajo.\n6.Pon los toppings que quieras y hornea cada pizza a altura media,\na 210ºC durante 15 minutos o hasta que haya crecido \ny se haya dorado.")
+            tren.config(bg="springgreen4", fg="black", font=("Arial",14))
+            tren.place(x=50,y=1, width=900, height=600)
 def cmd2():
-            ventana_almuerzo2=Tk()
-            ventana_almuerzo2.title("Comida.")
-            ventana_almuerzo2.geometry("1000x500")
-            ventana_almuerzo2.resizable(0,0)
-            ventana_almuerzo2.config(bg= "springgreen4")
-            tren = Label(ventana_almuerzo2, text= "")
-            tren.config(bg="springgreen4", fg="black", font=("Arial",19))
-            tren.place(x=50,y=5, width=900, height=400)
-
+            ventana_comida2=Tk()
+            ventana_comida2.title("Comidas")
+            ventana_comida2.geometry("1000x520")
+            ventana_comida2.resizable(0,0)
+            ventana_comida2.config(bg= "springgreen4")
+            tren = Label(ventana_comida2, text= "---COMIDAS---\n\n--PASTEL DE PAPA Y CEBOLLA--\n\nIngredientes:500 g de patatas harinosas, \n600 g de cebollas de platillo, 75 g de queso vegano tipo parmesano rallado, \n500 ml de leche, 40 g de margarina, 40 g de harina de trigo,\nnuez moscada recién molida, 1 cucharadita de orégano seco, \naceite de oliva virgen extra y sal \n\nPreparación:\n1.Sofríe la cebolla, pelada y cortada en juliana, con un buen chorro de aceite y \nun poco de sal hasta que esté blanda. Pela y lava las patatas \ny córtalas en rodajas muy finas.\n2.Prepara en un cazo una bechamel con la margarina, \nla harina y la leche.\n3.Coloca a capas las patatas en una fuente refractaria pintada en aceite y \ncondiméntalas con sal, nuez moscada y orégano. Agrega \nla cebolla y cubre con la bechamel y el queso.\n4.Introdúcelo en el horno precalentado a 190 ºC y \ncuece 25 minutos, hasta que el queso se \nhaya dorado.")
+            tren.config(bg="springgreen4", fg="black", font=("Arial",14))
+            tren.place(x=50,y=0, width=900, height=500)
+        
 def cmd3():
-            ventana_almuerzo3=Tk()
-            ventana_almuerzo3.title("Comida.")
-            ventana_almuerzo3.geometry("1000x500")
-            ventana_almuerzo3.resizable(0,0)
-            ventana_almuerzo3.config(bg= "springgreen4")
-            tren = Label(ventana_almuerzo3, text= "")
-            tren.config(bg="springgreen4", fg="black", font=("Arial",19))
-            tren.place(x=50,y=5, width=900, height=400)
+            ventana_comida3=Tk()
+            ventana_comida3.title("Comidas.")
+            ventana_comida3.geometry("1000x600")
+            ventana_comida3.resizable(0,0)
+            ventana_comida3.config(bg= "springgreen4")
+            tren = Label(ventana_comida3, text= "---COMIDAS---\n\n--ROLLITOS DE APIO Y ARROZ DE ZANAHORIA--\n\nIngredientes:80 g de fideos de soja,24 hojas de apio verde,\n1 taza de brotes de soja, aceite para freír,\n1 cucharada de alga nori en copos, 1 cucharada de vinagre de arroz \no de vinagre de manzana, 2 cucharadas de salsa \nde soja o teriyaki, 4 cucharadas de aceite de sésamo o de aceite de oliva virgen, \n1 cucharadita de azúcar moreno o miel, 200 g de arroz de grano redondo, 1 taza de \nzumo de zanahoria fresco y recién \nlicuado media taza de agua sal.\n\nPREPARACIÓN:\n1.Cuece los fideos de soja según indique el paquete, escurre, corta \ny mezcla con los brotes de soja.\n2.Dispón ocho obleas de masa para rollitos o similar.\nColoca una porción de la mezcla en una de las esquinas, perpendicular a la línea que formaría \ncon la otra esquina. Extiende tres hojas de apio más adelante y \nforma los rollitos iniciando la envoltura por la esquina \ndonde están los fideos. Tras la primera vuelta, pliega ambos lados hacia el centro y \ncontinúa envolviendo hasta terminar la masa.\n3.Mezcla los copos de nori con el vinagre, la salsa de soja, el azúcar \ny el aceite. Remueve bien y reserva. Calienta el zumo de zanahoria y el agua \ncon la sal. Cuece el arroz dos minutos a borbotones, y el resto \nal mínimo y tapado. Fríe los rollitos \ny sirve calientes con la vinagreta de nori y el arroz \nde zanahoria. ")
+            tren.config(bg="springgreen4", fg="black", font=("Arial",13))
+            tren.place(x=50,y=5, width=900, height=550)
 
 
 
@@ -150,9 +149,9 @@ frame_comida1 = Frame(ventana_principal)
 frame_comida1.config(bg = "white", width = 250 , height = 500 )
 frame_comida1.place(x = 720, y=60)
 
-titulo = Label(ventana_principal, text= "PROYECTO SEAT")
-titulo.config(bg="black", fg="white", font=("Arial",20))
-titulo.place(x=350,y=10, width=400, height=40)
+titulo = Label(ventana_principal, text= "SEAT")
+titulo.config(bg="White", fg="green", font=("Arial",25))
+titulo.place(x=480,y=10, width=100, height=40)
 
 #BOTONES DESAYUNO
 
@@ -180,16 +179,20 @@ bt_almuerzo3 = Button(ventana_principal,text="Lomo de res con champiñones.", co
 bt_almuerzo3.place(x=430, y=400, width=190, height=30)
 
 #BOTONES COMIDA
-bt_comida1 = Button(ventana_principal,text="Tortillas con queso y hierbas.", command=cmd1)
-bt_comida1.place(x=765, y=300, width=160, height=30)
+bt_cmd1 = Button(ventana_principal,text="Pizza.", command=cmd1)
+bt_cmd1.place(x=765, y=300, width=160, height=30)
 
-bt_comida2 = Button(ventana_principal,text="Tortillas con queso y hierbas.", command=cmd2)
-bt_comida2.place(x=765, y=350, width=160, height=30)
+bt_cmd2 = Button(ventana_principal,text="Pastel de papa y cebolla.", command=cmd2)
+bt_cmd2.place(x=765, y=350, width=160, height=30)
 
-bt_comida3 = Button(ventana_principal,text="Tortillas con queso y hierbas.", command=cmd3)
-bt_comida3.place(x=765, y=400, width=160, height=30)
+bt_cmd3 = Button(ventana_principal,text="Rollitos de apio y \narroz de zanahoria", command=cmd3)
+bt_cmd3.place(x=765, y=400, width=160, height=40)
 
 #detalles
+
+gx= PhotoImage(file="foto/rojo.png")
+label3= Label(ventana_principal, image=gx)
+label3.place(x=1000, y=0)
 
 
 gf= PhotoImage(file="foto/dsy(1).png")
@@ -208,9 +211,13 @@ gv= PhotoImage(file="foto/logo2.png")
 label3= Label(frame_almuerzo1, image=gv)
 label3.place(x=15, y=0)
 
-gg= PhotoImage(file="foto/y.png")
+gg= PhotoImage(file="foto/cmd.png")
 label3= Label(frame_comida1, image=gg)
 label3.place(x=0, y=0)
+
+gm= PhotoImage(file="foto/logo3.png")
+label3= Label(frame_comida1, image=gm)
+label3.place(x=15, y=0)
 
 ventana_principal.mainloop()
 
